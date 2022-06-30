@@ -1,0 +1,156 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3221583600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundStepDefination.beforeRun()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should be able to set sky blue background",
+        "description": "",
+        "id": "techfios-other-login-functionality-validation;user-should-be-able-to-set-sky-blue-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3264705900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User able see \"Set SkyBlue Background\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Set SkyBlue Background",
+                  "offset": 15
+                }
+              ],
+              "location": "BackgroundStepDefination.user_able_see_button_exists(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3069014000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User able to  click on the button",
+            "match": {
+              "location": "BackgroundStepDefination.user_able_to_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should able to see background color change to sky blue",
+            "match": {
+              "location": "BackgroundStepDefination.user_should_able_to_see_background_color_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Scenario1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1860954300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundStepDefination.beforeRun()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User should  be able to set white background",
+        "description": "",
+        "id": "techfios-other-login-functionality-validation;user-should--be-able-to-set-white-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3103722700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User able see \"Set White Background\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Set White Background",
+                  "offset": 15
+                }
+              ],
+              "location": "BackgroundStepDefination.user_able_see_button_exists(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3088379300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User able to  click on the button",
+            "match": {
+              "location": "BackgroundStepDefination.user_able_to_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should able to see background color change to white",
+            "match": {
+              "location": "BackgroundStepDefination.user_should_able_to_see_background_color_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "TechFios Other Login Functionality validation",
+    "description": "",
+    "id": "techfios-other-login-functionality-validation",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Background.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@BackgroundFeature"
+      }
+    ]
+  }
+]
